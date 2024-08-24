@@ -1,0 +1,47 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  width: max-content;
+  padding: 50px;
+}
+
+.count-text {
+  color: #0f172a;
+  text-align: center;
+  font-size: 38px;
+}
+
+.even-odd-text {
+  color: #334155;
+  font-size: 28px;
+  text-align: center;
+}
+
+.increment-button {
+  border: none;
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.description {
+  color: #1e293b;
+  text-align: center;
+  font-size: 16px;
+}
